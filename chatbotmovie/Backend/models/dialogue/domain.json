@@ -1,0 +1,15 @@
+{
+  "states": [
+    "intent_bye", 
+    "intent_demande_movie", 
+    "intent_greet", 
+    "entity_genre", 
+    "slot_genre_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_action_default_fallback", 
+    "prev_utter_greet", 
+    "prev_utter_goodbye", 
+    "prev_action_recommand"
+  ]
+}

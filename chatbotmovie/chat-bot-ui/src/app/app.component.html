@@ -1,0 +1,34 @@
+<mat-card class="example-card">
+  <div style="text-align: center">
+    <h1>ChatBot Test</h1> 
+  </div>
+  <mat-divider></mat-divider>
+  <div #scrollMe class="messages-container">
+    <div class="message" *ngFor="let m of messages | async">
+      <mat-card-header *ngIf="m.from !== undefined" >
+        <div mat-card-avatar *ngIf="m.from === 'bot'" class="bot-message"></div>
+        <div mat-card-avatar *ngIf="m.from === 'user'" class="user-message"></div>
+        <mat-card-title>{{ m.from }}<small>{{ m.date | date:'shortTime' }}</small></mat-card-title>
+        <mat-card-subtitle>{{ m.content }}</mat-card-subtitle>
+      </mat-card-header>
+      <!-- <mat-card-header *ngIf="m[0].name !== undefined">
+        <div mat-card-avatar class="bot-message"></div>
+        <mat-card-subtitle>{{ m | json }}</mat-card-subtitle>
+      </mat-card-header> -->
+      <hr class="hr">
+    </div>
+  </div>
+  <hr style="padding:0">
+  <mat-card-actions class="actions">
+    <br>
+    <mat-form-field class="example-form-field">
+      <input matInput type="text" placeholder="Send something" [(ngModel)]="input" (keyup.enter)="sendMessage()">
+      <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value = ''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+    <button mat-button matSuffix mat-icon-button aria-label="Send" (click)="sendMessage()">
+      <mat-icon>send</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>

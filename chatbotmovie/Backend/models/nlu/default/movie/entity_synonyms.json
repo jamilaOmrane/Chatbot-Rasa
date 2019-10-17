@@ -1,0 +1,19 @@
+{
+  "real": "documentary",
+  "funny": "comedy",
+  "sentimental": "romantic",
+  "love": "romantic",
+  "dramatical": "drama",
+  "actioner": "action",
+  "crime": "action",
+  "romance": "romantic",
+  "dramatic": "drama",
+  "real life": "documentary",
+  "laughing": "comedy",
+  "laugh": "comedy",
+  "amourous": "romantic",
+  "comedian": "comedy",
+  "documented": "documentary",
+  "factual": "documentary",
+  "thriller": "action"
+}

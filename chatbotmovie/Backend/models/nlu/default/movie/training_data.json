@@ -1,0 +1,1616 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "howdy how are you doing", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "morning whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi how are you doing", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good night how is it going", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good night whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good night how are you", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good night are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "morning how are you", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day how is it going", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola how is it going", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey how are you doing", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon how is it going", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good night sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy how is it going", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "morning how is it going", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning how are you doing", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon how are you", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "morning are you around?", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi whatsup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "morning whats up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good afternoon", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good day how are you doing", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hola how are you doing", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good night are you around", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy sup", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "im leaving now adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon bye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "got to go chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out chao", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later chau", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "adios", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "have to go", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "going out adieu", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you soon gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "gtg", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "heading out", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "ttyl", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "leaving", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "farewell", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "talk to you later", 
+        "intent": "bye"
+      }, 
+      {
+        "text": "im leaving now", 
+        "intent": "bye"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "romantic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a romantic premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 17, 
+            "value": "love", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any love premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 29, 
+            "value": "laughing", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a laughing film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a adventure film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "actioner", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a actioner film"
+      }, 
+      {
+        "text": "Propose me a movie", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 20, 
+            "value": "documentary", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a documentary movie"
+      }, 
+      {
+        "text": "I want a movie", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "text": "Any suggetions for a film", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a adventure movie"
+      }, 
+      {
+        "text": "can you look up a premiere", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "text": "Any suggetions for a premiere", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 18, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any drama premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a dramatical premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "actioner", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "can you look up a actioner premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 21, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a dramatical premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 29, 
+            "value": "comedian", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a comedian movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "sentimental", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any sentimental movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 16, 
+            "value": "funny", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a funny movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "comedian", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a comedian movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "laughing", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a laughing movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "dramatic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a dramatic premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I need a adventure movie"
+      }, 
+      {
+        "text": "I'm looking for a movie", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "text": "Suggest me a screening", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 26, 
+            "value": "crime", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a crime screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "thriller", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "can you look up a thriller premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "romantic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a romantic film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "dramatic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a dramatic premiere"
+      }, 
+      {
+        "text": "Propose me a screening", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "funny", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "funny premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "romantic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a romantic film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 30, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a adventure screening"
+      }, 
+      {
+        "text": "I desire a film", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 17, 
+            "value": "action", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a action screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 26, 
+            "value": "funny", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a funny movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 26, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a drama movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a dramatical screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 27, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "can you look up a adventure film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 19, 
+            "value": "dramatic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a dramatic movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "comedian", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any comedian screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a dramatical premiere"
+      }, 
+      {
+        "text": "premiere", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a drama movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a dramatical film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 22, 
+            "value": "real", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a real screening"
+      }, 
+      {
+        "text": "I'm looking for a film", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "text": "can you look up a film", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a dramatical movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 27, 
+            "value": "real life", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a real life premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "actioner", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Propose me a actioner movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a adventure premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "amourous", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a amourous screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "romance", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any romance premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I need a drama movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 29, 
+            "value": "thriller", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a thriller screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 17, 
+            "value": "love", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a love screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 16, 
+            "value": "crime", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a crime movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a adventure film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 15, 
+            "value": "love", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a love movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "romance", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "romance movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "amourous", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a amourous movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a drama film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "romantic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "romantic premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 23, 
+            "value": "crime", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a crime premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "thriller", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a thriller premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "real life", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "real life premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 30, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a adventure movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "actioner", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I want a actioner film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a adventure screening"
+      }, 
+      {
+        "text": "Suggest me a film", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 20, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a adventure movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 23, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a drama film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I need a adventure screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "action", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I need a action screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 29, 
+            "value": "dramatic", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Any suggetions for a dramatic screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 23, 
+            "value": "laugh", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a laugh film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I need a adventure film"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 19, 
+            "value": "actioner", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I desire a actioner premiere"
+      }, 
+      {
+        "text": "Is there any movie", 
+        "intent": "demande_movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any adventure movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 17, 
+            "value": "love", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a love premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 17, 
+            "value": "real", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a real premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 22, 
+            "value": "love", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "can you look up a love screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 18, 
+            "value": "drama", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Suggest me a drama screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "factual", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "factual screening"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "adventure", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "Is there any adventure premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "dramatical", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a dramatical movie"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "thriller", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "I'm looking for a thriller premiere"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "comedian", 
+            "entity": "genre"
+          }
+        ], 
+        "intent": "demande_movie", 
+        "text": "comedian screening"
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "dramatical", 
+          "dramatic"
+        ], 
+        "value": "drama"
+      }, 
+      {
+        "synonyms": [
+          "actioner", 
+          "crime", 
+          "thriller"
+        ], 
+        "value": "action"
+      }, 
+      {
+        "synonyms": [
+          "funny", 
+          "comedian", 
+          "laughing", 
+          "laugh"
+        ], 
+        "value": "comedy"
+      }, 
+      {
+        "synonyms": [
+          "real", 
+          "real life", 
+          "documented", 
+          "factual"
+        ], 
+        "value": "documentary"
+      }, 
+      {
+        "synonyms": [
+          "sentimental", 
+          "love", 
+          "romance", 
+          "amourous"
+        ], 
+        "value": "romantic"
+      }
+    ], 
+    "regex_features": [], 
+    "lookup_tables": []
+  }
+}

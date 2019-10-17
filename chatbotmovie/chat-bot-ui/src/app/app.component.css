@@ -1,0 +1,46 @@
+.example-card {
+    width: 600px;
+    margin: 0 auto;
+    /* margin : 20px 50px 0px 50px; */
+    background: rgb(242, 246, 252)
+  }
+  
+  .bot-message {
+    background-image: url('../assets/bot.png');
+    background-size: cover;
+    background-color: lightgray;
+    margin-right: 20px;
+  }
+
+  .user-message {
+    background-image: url('../assets/user.png');
+    background-size: cover;
+    background-color: lightgray;
+    margin-right: 20px;
+  }
+
+  .example-form-field {
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 0px
+  }
+
+  .messages-container{
+    height: 650px;
+    overflow: auto;
+  }
+
+  .message{
+    margin-bottom: 20px;
+    margin-top : 20px;
+  }
+
+  .hr{
+    border: none;
+    height: 1px; 
+    background-color: rgba(0,0,0,.12)
+  }
+
+  small{
+    width: 50%
+  }

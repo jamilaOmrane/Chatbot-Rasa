@@ -1,0 +1,25 @@
+actions:
+- utter_greet
+- utter_goodbye
+- action_recommand
+config:
+  store_entities_as_slots: true
+entities:
+- genre
+intents:
+- demande_movie:
+    use_entities: true
+- bye:
+    use_entities: true
+- greet:
+    use_entities: true
+slots:
+  genre:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye
+  utter_greet:
+  - text: Hello! How can I help?
