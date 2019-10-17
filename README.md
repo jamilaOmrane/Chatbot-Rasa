@@ -15,4 +15,4 @@ Talk to the chatbot once it's loaded.
 
 The chat-bot-ui is a simple angular project:
 
-Run the npm install in order to get all the used packages, then run the ng serve command  using ng serve.
+Run the npm install in order to get all the used packages, then run the ng serve command to launch the app.
